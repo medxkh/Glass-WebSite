@@ -22,5 +22,30 @@ main {
     rgba(255, 255, 255, 0.3)
   );
   border-radius: 1.7rem;
-  border: 1px solid rgba(170, 170, 170, 0.7);
+  border: 1px solid rgba(255, 0, 0, 0.144);
+  z-index: 3;
+  backdrop-filter: blur(1.4rem);
+}
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.3)
+  );
+
+  height: 15rem;
+  width: 15rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+.circle2 {
+  bottom: 5%;
+  left: 10%;
 }
